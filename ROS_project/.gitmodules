@@ -1,0 +1,36 @@
+[submodule "Lab_4/aas_ws/src/mav_comm"]
+	path = Lab_4/aas_ws/src/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "mav_comm"]
+	path = mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "Lab_6/as_ws/src/mav_comm"]
+	path = Lab_6/as_ws/src/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "Lab_6/as_ws/src/mav_trajectory_generation"]
+	path = Lab_6/as_ws/src/mav_trajectory_generation
+	url = https://github.com/ethz-asl/mav_trajectory_generation.git
+[submodule "Lab_6/as_ws/src/eigen_catkin"]
+	path = Lab_6/as_ws/src/eigen_catkin
+	url = https://github.com/ethz-asl/eigen_catkin.git
+[submodule "Lab_6/as_ws/src/eigen_checks"]
+	path = Lab_6/as_ws/src/eigen_checks
+	url = https://github.com/ethz-asl/eigen_checks.git
+[submodule "Lab_6/as_ws/src/catkin_simple"]
+	path = Lab_6/as_ws/src/catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "Lab_6/as_ws/src/glog_catkin"]
+	path = Lab_6/as_ws/src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "Lab_6/as_ws/src/nlopt"]
+	path = Lab_6/as_ws/src/nlopt
+	url = https://github.com/ethz-asl/nlopt.git
+#[submodule "Lab_6/as_ws/src/yaml_cpp_catkin"]
+#	path = Lab_6/as_ws/src/yaml_cpp_catkin
+#	url = https://github.com/ethz-asl/yaml_cpp_catkin.git
+[submodule "Project/simulation/unity_template/catkin_ws/src/nlopt"]
+	path = Project/simulation/unity_template/catkin_ws/src/nlopt
+	url = https://github.com/ethz-asl/nlopt.git
+[submodule "Project/simulation/unity_template/catkin_ws/src/hector_slam"]
+	path = Project/simulation/unity_template/catkin_ws/src/hector_slam
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_slam.git

@@ -1,0 +1,3 @@
+int32 beacon_id
+float32 distance
+geometry_msgs/Vector3 direction_vector

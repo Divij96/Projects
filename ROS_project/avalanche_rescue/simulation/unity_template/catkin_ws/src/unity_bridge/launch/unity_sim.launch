@@ -1,0 +1,24 @@
+<launch>
+  <node name="unity_sim" pkg="unity_bridge" type="AVALANCHE.x86_64" required="true"/>
+  <node name="w_to_unity" pkg="unity_bridge" type="w_to_unity"/>
+  <node name="unity_state" pkg="unity_bridge" type="unity_state"/>
+  <node name="rviz" pkg ="rviz" type ="rviz" args="-d $(find unity_bridge)/launch/rviz_config.rviz" required="true" />
+  <node name="environment_generator_node" pkg="environment_generator" type="environment_generator_node" output="screen"/>
+  <node name="planner_node" pkg="advanced_waypoint_pkg" type="advanced_waypoint_pkg" output="screen"/>
+  <node name="sampler" pkg="mav_trajectory_generation_ros" type="trajectory_sampler_node">
+    <remap from="path_segments_4D" to="trajectory"/>
+  </node>
+  <node name="vector_follower" pkg="unity_bridge" type="vector_follower" output="screen"/>
+  <node name="controller_node" pkg="controller_pkg" type="controller_node" output="screen"/>
+  <node name="waypoint_publisher_node" pkg="waypoint_publisher" type="waypoint_publisher" output="screen"/>
+  <node name="transmitter_beacon" pkg="transmitters" type="transmitter_beacon" output="screen" >
+	  <rosparam command="load" file="$(find environment_generator)/config/environment_params.yaml"/>
+  </node>
+  <node name="receiver_beacon" pkg="beacon" type="receiver_beacon" output="screen"  />
+  <node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server">
+      <param name="target_frame_name" type="string" value="world" />
+      <param name="source_frame_name" type="string" value="av" />
+      <param name="trajectory_update_rate" type="double" value="20" />
+      <param name="trajectory_publish_rate" type="double" value="10" />
+  </node>
+</launch>

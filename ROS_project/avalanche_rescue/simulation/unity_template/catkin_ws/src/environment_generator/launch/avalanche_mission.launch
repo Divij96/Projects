@@ -1,0 +1,33 @@
+<launch>
+  <node name="vector_follower" pkg="unity_bridge" type="vector_follower" output="screen"/>
+  <node name="controller_node" pkg="controller_pkg" type="controller_node" output="screen"/>
+  <node name="waypoint_publisher_node" pkg="waypoint_publisher" type="waypoint_publisher" output="screen"/>
+  <!--<node name="vector_publisher_node" pkg="vector_publisher" type="vector_publisher" output="screen"/> -->
+    <!--<node name="vector_publisher_node" pkg="vector_publisher" type="vector_publisher" output="screen"/> -->
+  <node name="transmitter_beacon" pkg="transmitters" type="transmitter_beacon" output="screen">
+	  <rosparam command="load" file="$(find environment_generator)/config/environment_params.yaml"/>
+  </node>
+  <node name="receiver_beacon" pkg="beacon" type="receiver_beacon" output="screen"/>
+  <node name="environment_generator_node" pkg="environment_generator" type="environment_generator_node" output="screen"/>
+
+<!--- Trajectory planner (advanced_waypoint_pkg) -->
+<node name="planner_node" pkg="advanced_waypoint_pkg" type="advanced_waypoint_pkg" output="screen"/>
+
+<!--- Trajectory sampler (basic_waypoint_pkg) -->
+<node name="sampler" pkg="mav_trajectory_generation_ros" type="trajectory_sampler_node">
+  <remap from="path_segments_4D" to="trajectory"/>
+</node>
+
+<!-- Use "sudo apt-get install ros-indigo-hector-slam"  -->
+<!-- replace indigo with our distro e.g. noetic  -->
+<!-- configure rviz (add trajectory topic), set base frame to world, add axes for av frame  ..  -->
+
+<node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server">
+    <param name="target_frame_name" type="string" value="world" />
+    <param name="source_frame_name" type="string" value="av" />
+    <param name="trajectory_update_rate" type="double" value="20" />
+    <param name="trajectory_publish_rate" type="double" value="10" />
+
+</node>
+
+</launch>

@@ -1,0 +1,3 @@
+int32 beacon_id
+geometry_msgs/Vector3 position_vector
+geometry_msgs/Quaternion rotation_quaternion

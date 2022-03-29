@@ -1,0 +1,17 @@
+# Set the three corners of your search area (parallelogram) here
+avalanche:
+  cornerA:
+    x: 411
+    y: 127.2
+    z: 90
+  cornerB:
+    x: 60
+    y: 175
+    z: 10
+  cornerC:
+    x: 31.6
+    y: -17.5
+    z: 10
+
+#Set the number of beacons here
+numberOfBeacons: 4

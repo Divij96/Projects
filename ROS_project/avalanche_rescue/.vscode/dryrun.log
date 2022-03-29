@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nico/Documents/autonomousSystems/autonomous-systems-2021-group-pi/Project'
+make: Leaving directory '/home/nico/Documents/autonomousSystems/autonomous-systems-2021-group-pi/Project'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 
