@@ -3,7 +3,7 @@
 This folder includes the avalanche rescue project.
 
 ## How can I run the simulation?
-Please have a look at [/ROS_project/ROS_project_avalanche_rescue/how_to_run.md](/ROS_project/ROS_project_avalanche_rescue/how_to_run.md)
+Please have a look at [https://github.com/Divij96/Projects/blob/main/ROS_project_avalanche_rescue/how_to_run.md](/ROS_project/ROS_project_avalanche_rescue/how_to_run.md)
 
 ## How do the nodes work?
 Please have a look at the READMEs in the package folders.
