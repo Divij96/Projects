@@ -1,13 +1,13 @@
 # Projects
 ## ROS_project_avalanche_rescue
 ### Search and Rescue avalanche scenario (Mission), Autonomous Systems
-The project was implemented in C++ using ROS packages. Visualization was done in
-Unity environment and Rviz.
-Task: fly over the avalanche and locate victims. Work packages included:-
-• realistic sensor models for avalanche beacon (noise & capabilities)
-• mission planning
-• adaptive trajectory generation
-• location report
+- The project was implemented in C++ using ROS packages. Visualization was done in
+- Unity environment and Rviz.
+- Task: fly over the avalanche and locate victims. Work packages included:-
+- • realistic sensor models for avalanche beacon (noise & capabilities)
+- • mission planning
+- • adaptive trajectory generation
+- • location report
 
 ## Scara Robot
 ### Design and build-up of a 4 DoF SCARA like robot (3+1gripper), Intelligent machine design lab
