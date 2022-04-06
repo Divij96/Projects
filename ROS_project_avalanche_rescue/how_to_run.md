@@ -2,7 +2,7 @@
 
 Follow the steps in:
 
-[/Project/simulation/unity_template/docker/README.md](/Project/simulation/unity_template/docker/README.md)
+[/ROS_project_avalanche_rescue/simulation/unity_template/docker/README.md](https://github.com/Divij96/Projects/tree/main/ROS_project_avalanche_rescue/simulation/unity_template/docker)
 
 
 ### Running on host machine (alternatively):
