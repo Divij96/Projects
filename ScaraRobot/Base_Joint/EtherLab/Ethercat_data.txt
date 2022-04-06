@@ -1,0 +1,40 @@
+Input
+
+Position_Joint_des 1    [32 bit]
+speed_des joint 1 	[32 bit]
+P gain Joint 1		[32 bit]
+I gain Joint 1		[32 bit]
+D gain Joint 1		[32 bit]
+
+Position_Joint_des 2	[32 bit]
+speed_des joint 2 	[32 bit]
+P gain Joint 2		[32 bit]
+I gain Joint 2		[32 bit]
+D gain Joint 2		[32 bit]
+
+Position_Joint_des 3	[32 bit]
+speed_des joint 3 	[32 bit]
+P gain Joint 3		[32 bit]
+I gain Joint 3		[32 bit]
+D gain Joint 3		[32 bit]
+
+Gripper_open_colse	[bool 1bit]    
+Control_mode            [bool 1bit]
+
+
+Output
+
+Position_Joint_absolute_pos 1    [32 bit]
+Position_Joint_rel_pos 1         [16 bit]
+Torque 1			 [32 bit]
+
+Position_Joint_absolute_pos 2    [32 bit]
+Position_Joint_rel_pos 2         [16 bit]
+Torque 2			 [32 bit]
+
+Position_Joint_absolute_pos 3    [32 bit]
+Position_Joint_rel_pos 3    	 [16 bit]
+Torque 3			 [32 bit]
+
+
+
