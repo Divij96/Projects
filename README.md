@@ -1,8 +1,9 @@
 # Projects
-## ROS_project_avalanche_rescue
+## ROS project avalanche rescue
 ### Search and Rescue avalanche scenario (Mission), Autonomous Systems
-- The project was implemented in C++ using ROS packages. Visualization was done in Unity environment and Rviz.
- Task: fly over the avalanche and locate victims. Work packages included:-
+- The project was implemented in C++ using ROS packages. Visualization was done in Unity environment and Rviz. <br />
+
+Task: fly over the avalanche and locate victims. Work packages included:- <br />
 -  realistic sensor models for avalanche beacon (noise & capabilities)
 -  mission planning
 -  adaptive trajectory generation
