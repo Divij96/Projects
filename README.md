@@ -1,7 +1,6 @@
 # Projects
-ROS_project_avalanche_rescue
-Search and Rescue avalanche scenario (Mission), Autonomous Systems
-https://github.com/Divij96/Projects/tree/main/ROS_project_avalanche_rescue
+## ROS_project_avalanche_rescue
+### Search and Rescue avalanche scenario (Mission), Autonomous Systems
 The project was implemented in C++ using ROS packages. Visualization was done in
 Unity environment and Rviz.
 Task: fly over the avalanche and locate victims. Work packages included:-
@@ -10,8 +9,8 @@ Task: fly over the avalanche and locate victims. Work packages included:-
 • adaptive trajectory generation
 • location report
 
-Scara Robot
-Design and build-up of a 4 DoF SCARA like robot (3+1gripper), Intelligent machine design lab
+## Scara Robot
+### Design and build-up of a 4 DoF SCARA like robot (3+1gripper), Intelligent machine design lab
 • Mechanical models were designed using Autodesk inventor and built using 3dprinters
 • The PCBs were designed using the Autodesk Eagle. They were later on manufactured
 and soldered
