@@ -1,7 +1,7 @@
 
 <p align="center">
-  <img src="https://github.com/Divij96/Projects/blob/main/ScaraRobot/Images/ScaraRobot.jpeg" width="400" title="hover text">
+  <img src="https://github.com/Divij96/Projects/blob/main/ScaraRobot/Images/HighLevelControl.png" width="600" title="hover text">
 </p>
 <p align="center">
-  <img src="https://github.com/Divij96/Projects/blob/main/ScaraRobot/Images/CAD_Assembly.png" width="400" alt="accessibility text">
+  <img src="https://github.com/Divij96/Projects/blob/main/ScaraRobot/Images/LowLevelControl.png" width="600" alt="accessibility text">
 </p>
